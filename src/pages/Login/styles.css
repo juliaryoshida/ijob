@@ -1,0 +1,125 @@
+.Login {
+    text-align: center;
+  }
+  
+  .container {
+    height: 40vmin;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .container-login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg?w=900&t=st=1658409131~exp=1658409731~hmac=bd86f37af01d57a56644e4f617952ccac81a485c082cc22cd4a4b9157324d57c");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  .warp-login{
+    
+    width: 23%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 80px 28px 40px 35px;
+    
+  }
+  .font-size{
+    width: 27%;
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin-bottom: 37px;
+  }
+  
+  .login-form-title{
+    display: block;
+    color: blue;
+    text-align: left;
+    font-size: 27px;
+    padding: 5px 0px 60px;
+    
+  }
+  
+  .nickName{
+    display: block;
+    font-size: 50px;
+    color: black;
+    line-height: 1.2;
+    text-align: left; 
+  }
+  
+  .password{
+    display: block;
+    font-size: 40px;
+    color: black;
+    line-height: 1.2;
+    text-align: left;
+  }
+  
+  .form-control{
+    font-size: 15px;
+    border-radius: 8px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    display: block;
+    width: 93%;
+    height: 30px;
+    background-color: transparent;
+    padding: 0 5px;
+  }
+  
+  .form-group{
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #000000;
+  }
+  
+  .login-form-btn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding: 10px 10px;
+  }
+  .form-btn{
+    font-size: 13px;
+    border-radius: 13px;
+    border: none;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 105px;
+    height: 30px;
+    background-color: blue;
+  
+  }
+  
+  .text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .txt1 {
+    font-size: 13px;
+    color: #111;
+    line-height: 1.5;
+    padding-right: 5px;
+  }
+  
+  .txt2 {
+    font-size: 13px;
+    color: blue;
+    line-height: 1.5;
+    text-decoration: none;
+  }
